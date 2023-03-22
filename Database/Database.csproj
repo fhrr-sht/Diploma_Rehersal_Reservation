@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="2023_03_19_001 CreateTables.sql" />
+    <Content Include="2023_03_22_001 CreateSPs.sql" />
     <Content Include="2023_03_21_001 CreateSPs.sql" />
     <Content Include="2023_03_20_001 CreateSPs.sql" />
   </ItemGroup>
