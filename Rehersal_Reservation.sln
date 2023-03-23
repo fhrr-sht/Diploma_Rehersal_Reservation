@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{538F834E-54E9-4CE5-ACC6-B2F1EE4B2726}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RehersalReservation.DataAccessLayer", "RehersalReservation.DataAccessLayer", "{5F3944F3-D88B-4FEF-B10C-4A05AB160D41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RehersalReservation.DataAccessLayer.Models", "RehersalReservation.DataAccessLayer.Models\RehersalReservation.DataAccessLayer.Models.csproj", "{C9F2D21F-111A-43AC-B395-F088381A58CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{538F834E-54E9-4CE5-ACC6-B2F1EE4B2726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{538F834E-54E9-4CE5-ACC6-B2F1EE4B2726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{538F834E-54E9-4CE5-ACC6-B2F1EE4B2726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F2D21F-111A-43AC-B395-F088381A58CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F2D21F-111A-43AC-B395-F088381A58CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F2D21F-111A-43AC-B395-F088381A58CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F2D21F-111A-43AC-B395-F088381A58CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9F2D21F-111A-43AC-B395-F088381A58CC} = {5F3944F3-D88B-4FEF-B10C-4A05AB160D41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB145B6D-2852-43C1-A29D-FD93C670E5EF}
