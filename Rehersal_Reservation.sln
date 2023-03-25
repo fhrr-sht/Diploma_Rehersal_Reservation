@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RehersalReservation.DataAcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RehersalReservation.DataAccessLayer.Models", "RehersalReservation.DataAccessLayer.Models\RehersalReservation.DataAccessLayer.Models.csproj", "{C9F2D21F-111A-43AC-B395-F088381A58CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RehersalReservation.DataAccessLayer.Contracts", "RehersalReservation.DataAccessLayer.Contracts\RehersalReservation.DataAccessLayer.Contracts.csproj", "{5B96F986-384E-4916-98C5-0208F97588CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RehersalReservation.DataAccessLayer", "RehersalReservation.DataAccessLayer\RehersalReservation.DataAccessLayer.csproj", "{1C03BD81-6A2D-4ABB-B166-5EA758B32B4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,22 @@ Global
 		{C9F2D21F-111A-43AC-B395-F088381A58CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9F2D21F-111A-43AC-B395-F088381A58CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9F2D21F-111A-43AC-B395-F088381A58CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B96F986-384E-4916-98C5-0208F97588CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B96F986-384E-4916-98C5-0208F97588CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B96F986-384E-4916-98C5-0208F97588CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B96F986-384E-4916-98C5-0208F97588CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C03BD81-6A2D-4ABB-B166-5EA758B32B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C03BD81-6A2D-4ABB-B166-5EA758B32B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C03BD81-6A2D-4ABB-B166-5EA758B32B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C03BD81-6A2D-4ABB-B166-5EA758B32B4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C9F2D21F-111A-43AC-B395-F088381A58CC} = {5F3944F3-D88B-4FEF-B10C-4A05AB160D41}
+		{5B96F986-384E-4916-98C5-0208F97588CF} = {5F3944F3-D88B-4FEF-B10C-4A05AB160D41}
+		{1C03BD81-6A2D-4ABB-B166-5EA758B32B4A} = {5F3944F3-D88B-4FEF-B10C-4A05AB160D41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB145B6D-2852-43C1-A29D-FD93C670E5EF}
