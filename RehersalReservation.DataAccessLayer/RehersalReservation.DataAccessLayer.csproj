@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseRepository.cs" />
+    <Compile Include="CalendarRepository.cs" />
     <Compile Include="CityRepository.cs" />
     <Compile Include="IConnection.cs" />
     <Compile Include="ICustomerRepository.cs" />
