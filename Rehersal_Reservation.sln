@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RehersalReservation.DataAcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{7FD00451-50DB-4C49-804D-B1A22E992B53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{EEB336E0-A767-466D-AC06-33BEF7025948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{7FD00451-50DB-4C49-804D-B1A22E992B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD00451-50DB-4C49-804D-B1A22E992B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FD00451-50DB-4C49-804D-B1A22E992B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB336E0-A767-466D-AC06-33BEF7025948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB336E0-A767-466D-AC06-33BEF7025948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB336E0-A767-466D-AC06-33BEF7025948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB336E0-A767-466D-AC06-33BEF7025948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
