@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="CityService.cs" />
     <Compile Include="ICityService.cs" />
+    <Compile Include="IRehersalService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RehersalService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj">
