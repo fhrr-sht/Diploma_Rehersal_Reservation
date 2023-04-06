@@ -82,7 +82,7 @@ namespace Services
             customer.PasswordHash = passwordHash;
             customer.PasswordSalt = passwordSalt;
 
-            customerRepository.InsertCustomer(new RehersalReservation.DataAccessLayer.Models.Customer
+            await customerRepository.InsertCustomer(new RehersalReservation.DataAccessLayer.Models.Customer
             {
                 CustomerId = customer.CustomerId,
                 EmailAddress = customer.EmailAddress,
