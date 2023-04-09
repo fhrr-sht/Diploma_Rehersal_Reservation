@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalendarService.cs" />
     <Compile Include="CityService.cs" />
     <Compile Include="CustomerService.cs" />
+    <Compile Include="ICalendarService.cs" />
     <Compile Include="ICityService.cs" />
     <Compile Include="ICustomerService.cs" />
     <Compile Include="IRehersalService.cs" />
