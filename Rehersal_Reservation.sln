@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33110.190
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{538F834E-54E9-4CE5-ACC6-B2F1EE4B2726}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{7FD00451-50DB-4C49-804D-B1A22E992B53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{EEB336E0-A767-466D-AC06-33BEF7025948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RehersalReservations", "RehersalReservation\RehersalReservations.csproj", "{508E5439-2BF5-400C-84F2-C9F689B58DA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{EEB336E0-A767-466D-AC06-33BEF7025948}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEB336E0-A767-466D-AC06-33BEF7025948}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEB336E0-A767-466D-AC06-33BEF7025948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508E5439-2BF5-400C-84F2-C9F689B58DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508E5439-2BF5-400C-84F2-C9F689B58DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508E5439-2BF5-400C-84F2-C9F689B58DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508E5439-2BF5-400C-84F2-C9F689B58DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
