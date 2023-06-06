@@ -94,7 +94,7 @@ namespace RehersalReservation.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return NotFound();
+                return BadRequest();
             }
             await roomService.InsertRoom(new Entity.Room
             {
@@ -119,7 +119,7 @@ namespace RehersalReservation.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return NotFound();
+                return BadRequest();
             }
             await roomService.UpdateRoom(new Entity.Room
             {

@@ -79,6 +79,10 @@ namespace RehersalReservation.Controllers
             {
                 await rehersalService.DeleteRehersal(id);
             }
+            else
+            {
+                return InternalServerError();
+            }
             return Ok();
         }
         [HttpPut]

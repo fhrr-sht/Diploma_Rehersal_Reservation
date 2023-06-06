@@ -52,6 +52,10 @@ namespace RehersalReservation.Controllers
             {
                 await cityService.DeleteCity(id);
             }
+            else
+            {
+                return InternalServerError();
+            }
             return Ok();
         }
         [HttpPut]

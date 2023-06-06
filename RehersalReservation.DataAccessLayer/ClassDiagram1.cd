@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RehersalReservation.DataAccessLayer.CityRepository">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAIAAAAAAAAAAAAAAAgQEAAAAAAAAAA=</HashCode>
+      <FileName>CityRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.BaseRepository" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>BaseRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.CalendarRepository">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAABAAAAAAQAAAAAAEAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>CalendarRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.CustomerRepository">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAABAAAAAAAAAAAAAEAAAAEAAABAAA=</HashCode>
+      <FileName>CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.RehersalRepository">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAgAAAAAAABAAAAAAAAAAgAgAAgAAAAAAAAAA=</HashCode>
+      <FileName>RehersalRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.RoomRepository">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQIAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAgAAAAEA=</HashCode>
+      <FileName>RoomRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.Models.City">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.Models.Customer">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.Models.RehersalSpase">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.Models.Reservation">
+    <Position X="8.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.Models.ReservationVM">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.Models.Room">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RehersalReservation.DataAccessLayer.Models.RoomFVM">
+    <Position X="6.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="RehersalReservation.DataAccessLayer.Contracts.IUserRepository" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RehersalReservation.DataAccessLayer.Contracts.ICalendarRepository" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RehersalReservation.DataAccessLayer.Contracts.ICityRepository" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RehersalReservation.DataAccessLayer.Contracts.ICustomerRepository" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RehersalReservation.DataAccessLayer.Contracts.IRehersalRepository" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RehersalReservation.DataAccessLayer.Contracts.IRoomRepository" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

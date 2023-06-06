@@ -51,7 +51,7 @@ namespace RehersalReservation.DataAccessLayer
                         reservation.Start = DateTime.Parse(rdr["Start"].ToString());
                         reservation.End = DateTime.Parse(rdr["End"].ToString());
                         reservation.Total = decimal.Parse(rdr["Total"].ToString());
-                        reservation.Room = rdr["Title"].ToString();
+                        reservation.Room = rdr["RehersalRoomName"].ToString();
                         reservation.Path = rdr["PathURL"].ToString();
                         reservation.ImageURL = rdr["ImageURL"].ToString();
                         reservation.Description = rdr["Description"].ToString();
@@ -88,7 +88,7 @@ namespace RehersalReservation.DataAccessLayer
                         reservation.Start = DateTime.Parse(rdr["Start"].ToString());
                         reservation.End = DateTime.Parse(rdr["End"].ToString());
                         reservation.Total = decimal.Parse(rdr["Total"].ToString());
-                        reservation.Room = rdr["Title"].ToString();
+                        reservation.Room = rdr["RehersalRoomName"].ToString();
                         reservation.Path = rdr["PathURL"].ToString();
                         reservation.ImageURL = rdr["ImageURL"].ToString();
                         reservation.Description = rdr["Description"].ToString();
